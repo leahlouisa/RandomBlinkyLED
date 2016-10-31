@@ -3,7 +3,7 @@ import RPi.GPIO as GPIO
 
 GPIO.setwarnings(False)
 GPIO.setmode(GPIO.BCM)
-First_LED = 14
+First_LED = 5
 
 timer_max_1 = randrange(4, 11)
 timer_count_1 = 0
